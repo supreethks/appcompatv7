@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2013 The Android Open Source Project
+<!--
+     Copyright (C) 2013 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,7 +17,8 @@
 
 <resources>
 
-    <!-- Themes in the "Theme.Base" family vary based on the current platform
+    <!--
+         Themes in the "Theme.Base" family vary based on the current platform
           version to provide the correct basis on each device. You probably don't
           want to use them directly in your apps.
 
@@ -24,10 +26,11 @@
           directly by apps.
 
           This is the values-v11/ file that only declares the Base themes for
-          Honeycomb+. You probably want to edit values/themes.xml instead. -->
-    <eat-comment/>
+          Honeycomb+. You probably want to edit values/themes.xml instead.
+    -->
+    <eat-comment />
 
-    <!-- Base platform-dependent theme  -->
+    <!-- Base platform-dependent theme -->
     <style name="Theme.Base" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
@@ -50,8 +53,6 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
 
-<<<<<<< HEAD
-=======
         <!--
             A native Action Mode could be displayed (for text selection, etc) so we need to ensure
             that it is positioned correctly, so we request windowActionModeOverlay so that it
@@ -78,15 +79,13 @@
         <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
     </style>
 
-    <style name="Theme.Base.AppCompat.Dialog.Light.FixedSize"
-           parent="android:Theme.Holo.Light.Dialog">
+    <style name="Theme.Base.AppCompat.Dialog.Light.FixedSize" parent="android:Theme.Holo.Light.Dialog">
         <item name="windowFixedWidthMajor">@dimen/dialog_fixed_width_major</item>
         <item name="windowFixedWidthMinor">@dimen/dialog_fixed_width_minor</item>
         <item name="windowFixedHeightMajor">@dimen/dialog_fixed_height_major</item>
         <item name="windowFixedHeightMinor">@dimen/dialog_fixed_height_minor</item>
         <item name="windowActionBar">false</item>
 
->>>>>>> 350998dd4dd7604fe25150596c93c4e98257847c
         <!-- Attributes populated from the framework to be read by apps -->
         <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
         <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>

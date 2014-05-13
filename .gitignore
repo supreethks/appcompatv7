@@ -16,7 +16,7 @@ HealthifyMe/build/**
 #*.project.properties
 
 # generated files
-bin/
+bin/**
 gen/
 ForkFacebookSDK/
 ForkActionBarSherlock/
@@ -80,5 +80,3 @@ local.properties
 *.ipr
 *~
 *.swp
-build/
-
