@@ -17,6 +17,12 @@ HealthifyMe/build/**
 
 # generated files
 bin/**
+bin/*
+build/*
+gen
+bin
+gen/**
+build/
 gen/
 ForkFacebookSDK/
 ForkActionBarSherlock/
