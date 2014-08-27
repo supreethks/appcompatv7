@@ -1,4 +1,4 @@
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
 buildscript {
     repositories {
@@ -17,7 +17,7 @@ dependencies {
 
 android {
     compileSdkVersion 16
-    buildToolsVersion "19.0.2"
+    buildToolsVersion "19.1.0"
 
     sourceSets {
         main {
@@ -41,5 +41,11 @@ android {
         // by a similar customization.
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
+    }
+
+}
+android {
+    lintOptions {
+        abortOnError false
     }
 }
